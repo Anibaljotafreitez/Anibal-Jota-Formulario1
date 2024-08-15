@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+   
+    margin: 4px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    height: 25px;
+    padding: 2px;
+    margin-left: 5px;
+    border: 1px solid  #4CAF50;
+    border-radius: 5px;
+    
+}
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h6{
+    width: inherit;
+}
+/* header{
+    width: 900px;
+} */
+.cajaP{
+    width: 350px;
+    border: 2px solid  #4CAF50;
+    border-radius: 15px;
+    
+}
+.horario{
+    display: flex;
+    justify-content: flex-end;
+}
+.enviar{
+    display: flex;
+    justify-content: flex-end;
+    
+}
