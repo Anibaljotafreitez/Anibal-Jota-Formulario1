@@ -11,6 +11,7 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
+    flex-wrap: wrap;
 }
 
 .box1{
@@ -28,22 +29,26 @@ body{
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     color: rgb(32, 85, 231);
+    font-size: 3.6em;
 }
 .subtitle{
     margin-top: 0px;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    font-family: "Rubik", sans-serif;
 }
 .box2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    margin-top: 100px;
+    margin-right: 100px;
+    padding: 5px;
 }
 .box2-2{
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+    width: 390px;
+    height: 90%;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,27 +59,45 @@ body{
     background-color: white;
 }
 input{
-    margin: 0px 0px 10px 0px;
-    width: 98%;
+    /* margin: 0px 0px 10px 0px; */
+    width: 95%;
     height: 50px;
+    margin-bottom: 15px;
     border: 1px solid  rgb(199, 198, 198);
     border-radius: 5px;
-    font-size: 1.2em;
+    font-size: 1.05em;
     padding-left: 10px;
 }
-
+.input{
+    width: 100%;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonLog{
+    width: 100%;
+}
+.buttonCre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .login{
     width: 100%;
     height: 50px;
     padding: 10px 20px;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: "Rubik", sans-serif;
     background-color: rgb(32, 85, 231);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
 }
 .forgot{
@@ -88,17 +111,21 @@ hr{
    
 }
 .create{
-    width: 70%;
+    width: 55%;
     height: 50px;
     padding: 10px 20px;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-size: 1.2em;
-    background-color: #0ed114;
+    font-size: 1.1em;
+    background-color: #32b436;
     font-family: "Rubik", sans-serif;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
 
+}
+.footer{
+    width: 60%;
+    text-align: center;
 }
